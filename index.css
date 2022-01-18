@@ -1,0 +1,59 @@
+#sale-main-div {
+  height: 364px;
+  width: 100%;
+  background-image: url(https://content.asos-media.com/-/media/homepages/unisex/events-2022/student-competition-jan-2022/en-artwork/2-homepage/1-desktop-banners/desktop-banner-2880x850.jpg);
+  background-size: 100% 100%;
+  text-align: center;
+  font-family: sans-serif;
+}
+#asos-student-img {
+  margin-top: 20px;
+}
+#offer-off {
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+  letter-spacing: 2.8px;
+  line-height: 35px;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 1px;
+  -webkit-text-stroke: 1.6px black;
+}
+#offer-tagline {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+#sale-btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+.sale-btn {
+  text-decoration: none;
+  background: black;
+  height: 44px;
+  width: 184px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.sale-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+#tc {
+  font-size: 10px;
+}
