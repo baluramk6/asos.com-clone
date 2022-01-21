@@ -1,0 +1,192 @@
+body {
+  background-color: #eeeeee;
+}
+
+#logo-header {
+  width: 610px;
+  height: 150px;
+  border: 1px solid transparent;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-main-div {
+  width: 610px;
+  height: 705px;
+  border: 1px solid transparent;
+  margin: auto;
+  background-color: white;
+}
+
+#signin-option-div {
+  height: 64px;
+  width: 90%;
+  padding: 15px 0 6px 0;
+  margin: auto;
+  display: flex;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+#signup-div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#signup-div:hover {
+  border-bottom: 2px solid #0770cf;
+  cursor: pointer;
+}
+
+#signin-div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px solid #f1f1f1;
+}
+
+#signin-div:hover {
+  border-bottom: 2px solid #0770cf;
+  cursor: pointer;
+}
+
+.btn-text:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#signup-title-h2 {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2.3px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-text {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #767676;
+}
+
+.btn-text-1 {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.6;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #2d2d2d;
+  margin-left: 25px;
+}
+
+#login-form-main-div {
+  height: 311px;
+  width: 100%;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  color: #767676;
+  line-height: 24px;
+}
+
+input {
+  width: 360px;
+  height: 49px;
+  border: 1px solid #767676;
+  font-family: sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  color: black;
+  line-height: 24px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+#submit {
+  background-color: #2d2d2d;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: white;
+  width: 365px;
+}
+
+#submit:hover {
+  background-color: #c0c0c0;
+  cursor: pointer;
+}
+
+#forgot-password {
+  color: #222222;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+#login-option-main {
+  height: 150px;
+  width: 100%;
+  border: 1px solid transparent;
+  margin-top: 60px;
+}
+
+#login-option-icon-div {
+  height: 121px;
+  width: 400px;
+  border: 1px solid transparent;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.icon-div {
+  border: 1px solid transparent;
+  border: 2px solid lightgrey;
+}
+
+#google-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#apple-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#facebook-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#twitter-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

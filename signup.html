@@ -7,6 +7,7 @@
     <title>SignUp and SignIn</title>
     <link rel="stylesheet" href="/signup.css" />
   </head>
+
   <body>
     <div id="main-container">
       <div id="signup-header">
@@ -23,7 +24,7 @@
           </div>
 
           <div id="signin-div">
-            <a class="btn-text" href="">SIGN IN</a>
+            <a class="btn-text" href="/login.html">SIGN IN</a>
           </div>
         </div>
         <h2 id="signup-title-h2">SIGN UP WITH...</h2>
@@ -66,22 +67,27 @@
       <!-- Signup form div start -->
       <div id="signup-form-div">
         <h2 id="signup-form-h2">Or sign up with email</h2>
+
         <div id="form-div">
-          <form action="">
+          <form action="submit">
             <label for="">EMAIL ADDRESS:</label><br />
-            <input type="email" name="" id="email" /><br />
+            <input type="email" name="femail" id="email" /><br />
             <span class="login-text"
               >We'll send your order confirmation here</span
             >
             <br />
             <label for="">FIRST NAME:</label><br />
-            <input type="text" name="" id="first-name" /><br />
+            <input type="text" name="fname" id="first_name" /><br />
             <label for="">LAST NAME:</label><br />
-            <input type="text" name="" id="last-name" /><br />
+            <input type="text" name="flast_name" id="last_name" /><br />
             <label for="">PASSWORD:</label><br />
-            <input type="password" name="" id="signon-password" /><br />
+            <input
+              type="password"
+              name="fpassword"
+              id="signon_password"
+            /><br />
             <label for="">DATE OF BIRTH:</label><br />
-            <input type="date" name="" id="dob" /><br />
+            <input type="date" name="fdob" id="dob" /><br />
             <input type="submit" value="JOIN ASOS" id="submit" />
           </form>
         </div>

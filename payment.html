@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="./payment.css" />
+  </head>
+  <body>
+    <div id="payment-box">
+      <div class="payment-heading">
+        <h3>Payment</h3>
+      </div>
+      <div class="payment-form">
+        <form action="">
+          <label for="">Account Details</label><br />
+          <input type="text" placeholder="First Name" id="firstname" />
+          <input type="text" placeholder="Last Name" id="lastname" /><br />
+          <input type="email" placeholder="Email" id="email" />
+          <br />
+          <div class="flex">
+            <div>
+              <label>Date of Birth</label>
+              <br />
+              <input type="date" id="birthdate" />
+            </div>
+            <div id="gender">
+              <label for="">Gender</label>
+              <br />
+              <button id="male">Male</button>
+              <button id="female">Female</button>
+            </div>
+          </div>
+          <label>Payment Details</label>
+          <br />
+          <button id="credit-cart">Credit Cart</button>
+          <button id="paytm">Paytm</button>
+          <br />
+          <input type="number" placeholder="Card Number" id="card-number" />
+          <br />
+          <input type="text" placeholder="Card CVV" id="card-cvv" />
+          <input type="number" placeholder="MM" id="card-month" />
+          <input type="number" placeholder="YY" id="card-year" /><br />
+          <input type="submit" value="Pay Now" id="pay-now" />
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="./payment.js"></script>
+</html>
