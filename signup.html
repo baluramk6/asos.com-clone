@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SignUp and SignIn</title>
+  <link rel="stylesheet" href="/signup.css" />
+</head>
+
+<body>
+  <div id="main-container">
+    <div id="signup-header">
+      <img src="https://my.asos.com/Content/images/asos-logo-2022-93x28.png" alt="" />
+    </div>
+
+    <div id="signup-main-div">
+      <div id="signin-option-div">
+        <div id="signup-div">
+          <a class="btn-text" href="">JOIN</a>
+        </div>
+
+        <div id="signin-div">
+          <a class="btn-text" href="/login.html">SIGN IN</a>
+        </div>
+      </div>
+      <h2 id="signup-title-h2">SIGN UP WITH...</h2>
+      <div id="signup-option-div">
+        <div id="google-signup">
+          <img width="20px" height="20px"
+            src="https://my.asos.com/Content/dist/images/d860112c552f4380997e32b29c5a0432.svg" alt="" />
+          <a class="btn-text-1" href="">GOOGLE</a>
+        </div>
+        <div id="apple-signup">
+          <img width="20px" height="20px"
+            src="https://my.asos.com/Content/dist/images/6ec595bf7f84e4933b4c1ab32c21c49a.svg" alt="" />
+          <a class="btn-text-1" href="">APPLE</a>
+        </div>
+        <div id="facebook-signup">
+          <img width="20px" height="20px"
+            src="https://my.asos.com/Content/dist/images/f73c71a378f0f63f4386ccdef8241fda.png" alt="" />
+          <a class="btn-text-1" href="">FACEBOOK</a>
+        </div>
+      </div>
+      <p id="signup-instruction">
+        Signing up with social is super quick. No extra passwords to remember
+        - no brain fail. Don't worry, we'd never share any of your data or
+        post anything on your behalf #notevil
+      </p>
+    </div>
+
+    <!-- Signup form div start -->
+    <div id="signup-form-div">
+      <h2 id="signup-form-h2">Or sign up with email</h2>
+
+      <div id="form-div">
+        <form action="submit">
+          <label for="">EMAIL ADDRESS:</label><br />
+          <input required type="email" name="femail" id="email" /><br />
+          <span class="login-text">We'll send your order confirmation here</span>
+          <br />
+          <label for="">FIRST NAME:</label><br />
+          <input required type="text" name="fname" id="first_name" /><br />
+          <label for="">LAST NAME:</label><br />
+          <input required type="text" name="flast_name" id="last_name" /><br />
+          <label for="">PASSWORD:</label><br />
+          <input required type="password" name="fpassword" id="signon_password" /><br />
+          <label for="">DATE OF BIRTH:</label><br />
+          <input required type="date" name="fdob" id="dob" /><br />
+          <input required type="submit" value="JOIN ASOS" id="submit" />
+        </form>
+      </div>
+    </div>
+
+    <!-- Signup form div End -->
+  </div>
+</body>
+
+</html>
+<script src="signup.js"></script>

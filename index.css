@@ -1,0 +1,576 @@
+#sale-main-div {
+  height: 364px;
+  width: 100%;
+  background-image: url(https://content.asos-media.com/-/media/homepages/unisex/events-2022/student-competition-jan-2022/en-artwork/2-homepage/1-desktop-banners/desktop-banner-2880x850.jpg);
+  background-size: 100% 100%;
+  text-align: center;
+  font-family: sans-serif;
+}
+#asos-student-img {
+  margin-top: 20px;
+}
+#offer-off {
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+  letter-spacing: 2.8px;
+  line-height: 35px;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 1px;
+  -webkit-text-stroke: 1.6px black;
+}
+#offer-tagline {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+#sale-btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+.sale-btn {
+  text-decoration: none;
+  background: black;
+  height: 44px;
+  width: 184px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.sale-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+#tc {
+  font-size: 10px;
+}
+
+#choose-layer {
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+}
+
+#choose-layer-img-div {
+  margin: auto;
+  width: 1260px;
+  height: 600px;
+  background-image: url(https://content.asos-media.com/-/media/homepages/mw/2022/jan/17/hero/mw_ranch_retreat_desktop_hero_1258x600.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#choose-laye-text {
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  margin-top: 380px;
+}
+
+#shop-new-season {
+  font-family: sans-serif;
+  width: 210px;
+  height: 44px;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 500px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#shop-new-season:hover {
+  background-color: black;
+  color: white;
+}
+
+#product-highlight-div {
+  width: 100%;
+  height: 484px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#product-highlight-img-div {
+  height: 380px;
+  width: 300px;
+}
+
+.img-size-full {
+  width: 100%;
+  height: 100%;
+}
+
+#product-highlight-title {
+  text-align: center;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  -webkit-text-stroke: 0.5px black;
+}
+
+#product-highlight-sub-title {
+  text-align: center;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+#discount-banner-div {
+  height: 128px;
+  width: 100%;
+  background-color: #9447ff;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#discount-banner-text {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 2.8px;
+  -webkit-text-stroke: 2px white;
+  color: white;
+  display: inline-block;
+  justify-content: center;
+  margin-top: 18px;
+}
+#discount-banner-limited-offer {
+  font-family: sans-serif;
+  font-size: 10px;
+  color: white;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+#style-feed-div {
+  width: 100%;
+  height: 610px;
+  background-color: #ccff00;
+  margin-top: 50px;
+  display: block;
+}
+
+#style-feed-title-div {
+  width: 1210px;
+  height: 65px;
+  border: 1px solid transparent;
+  margin: auto;
+}
+
+#style-feed-img-div {
+  width: 1210px;
+  height: 425px;
+  border: 1px solid transparent;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#style-feed-btn-div {
+  width: 1210px;
+  height: 80px;
+  border: 1px solid transparent;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.style-feed-img-box {
+  height: 382px;
+  width: 280px;
+  border: 1px solid transparent;
+  background: white;
+  transition: transform 0.6s; /* Animation */
+}
+.style-feed-img-box:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+#style-feed-title {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#style-feed-sub-title {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  color: rgb(100, 100, 100);
+  margin-left: 10px;
+}
+
+#style-feed-date {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(14, 14, 14);
+  text-align: right;
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+
+#style-feed-text {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#style-feed-sub-text {
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#style-feed-btn {
+  font-family: sans-serif;
+  background-color: white;
+  height: 44px;
+  width: 243px;
+  padding: 1px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#style-feed-btn:hover {
+  color: white;
+  background-color: black;
+}
+
+#big-img-div {
+  height: 801px;
+  width: 1258px;
+  border: 1px solid transparent;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.big-img-box {
+  width: 480px;
+  height: 100%;
+  border: 1px solid transparent;
+}
+.big-img {
+  width: 100%;
+  height: 75%;
+  border: 1px solid transparent;
+}
+
+#big-img-h2 {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+
+#big-img-sub-title {
+  text-align: center;
+  font-family: Arial;
+  font-size: 18px;
+  letter-spacing: 0.8;
+}
+
+#big-img-btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#big-img-btn {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: black;
+  border: 2px solid black;
+  padding: 22px 10px;
+}
+
+#paypal-main-div {
+  margin-top: 40px;
+  height: 390px;
+  width: 100%;
+  border: 1px solid blue;
+  background-image: url(https://content.asos-media.com/-/media/homepages/unisex/payment-options/paypal/paypal_desk_background.jpg);
+}
+
+#paypal-logo-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+#paypal-heading {
+  font-family: sans-serif;
+  font-size: 49px;
+  font-weight: 900;
+  letter-spacing: 2.8px;
+  font-style: italic;
+  color: white;
+  -webkit-text-stroke: 1.8px white;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+#paypal-sub-heading {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0.5;
+  color: white;
+  text-align: center;
+  margin-top: 8px;
+}
+
+#paypal-btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.paypal-btn {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background: white;
+  padding: 13px 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.paypal-btn:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+#brand-div {
+  width: 100%;
+  height: 266px;
+  margin-top: 40px;
+  border: 1px solid transparent;
+}
+
+#trending-brand-h2 {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-align: center;
+  margin-top: 0%;
+}
+#brand-sub-div {
+  width: 1258px;
+  height: 203px;
+  margin: auto;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.brand-img-size {
+  width: 193px;
+  height: 193px;
+}
+
+#social-media-payment-div {
+  width: 100%;
+  height: 60px;
+  border: 1px solid transparent;
+  margin-top: 40px;
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#social-media-icon-div {
+  width: 202px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 15px;
+}
+
+#payment-icon-div {
+  height: 20px;
+  width: 575px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 15px;
+  border-left: 1px solid gray;
+}
+
+#footer-main-container {
+  width: 100%;
+  height: 244px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-sub-div {
+  width: 310px;
+  height: 179px;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-h2 {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #646464;
+}
+
+.header-sub-option {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  color: rgb(109, 109, 109);
+}
+
+.header-sub-option:hover {
+  cursor: pointer;
+  color: #0770cf;
+}
+
+#country-change-div {
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#you-are-in {
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 00.4px;
+  text-align: left;
+  color: rgb(109, 109, 109);
+}
+
+#flage-img {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  margin-right: 7px;
+}
+#flage-img:hover {
+  border: 1px solid #0770cf;
+  border-radius: 25px;
+}
+
+#change {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgb(109, 109, 109);
+  border-left: 2px solid rgb(109, 109, 109);
+  padding-left: 7px;
+}
+
+#copyright-div {
+  height: 60px;
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#copyright-text {
+  font-family: sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.4px;
+  text-decoration: rgb(45, 45, 45);
+  margin-left: 25px;
+}
+
+.privacy-tc {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 10px;
+  letter-spacing: 0.8px;
+  color: #2d2d2d;
+  text-decoration: rgb(45, 45, 45);
+}
+
+.privacy-tc:hover {
+  color: #0770cf;
+  cursor: pointer;
+}
+
+#privacy-text {
+  margin-left: 12px;
+  padding-right: 12px;
+  border-right: 1px solid #2d2d2d;
+}
+#accessebility-text {
+  margin-right: 25px;
+  margin-left: 12px;
+}
+#tc-text {
+  margin-left: 12px;
+}

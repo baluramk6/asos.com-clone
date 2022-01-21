@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="/checkout.css">
+</head>
+
+<body>
+    <div id="checkout-header">
+        <h1 id="checkout-logo">ASOS</h1>
+        <h1 id="checkout-h1">CHECKOUT</h1>
+    </div>
+
+    <div id="checkout-main-div">
+        <div id="checkout-left-div">
+            <div id="country-div">
+                <h1 id="shipping-country">SHIPPING COUNTRY:</h1>
+                <div id="country-select">
+                    <img id="flage" width="30" height="30"
+                        src="https://assets.asosservices.com/checkout/2.0.1.7503/images/shared/flags/us.png" alt="">
+                    <select name="" id="country">
+                        <option value="">Select Country</option>
+                        <option value="ind">INDIA</option>
+                        <option value="usa">USA</option>
+                        <option value="nepal">NEPAL</option>
+                        <option value="uk">UK</option>
+                        <option value="uae">UAE</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="promo-div">
+                <h1 id="promo-h1">Promo/student code or vouchers</h1>
+                <div id="promo-main-div">
+                    <label id="promo-lable" for="">Enter Code :</label>
+                    <input type="text" name="" id="promo-code">
+                    <button id="promo-btn">Apply</button>
+                </div>
+
+            </div>
+
+            <div id="address-main-div">
+                <h1 id="delivery-address-h1"> DELIVERY ADDRESS</h1>
+
+                <div id="postal-address">
+                    <a id="postal-address-btn" class="address-option-btn" href="">POSTAL ADDRESS</a>
+                    <a id="click-and-collect-btn" class="address-option-btn" href="">CLICK AND COLLECT</a>
+                </div>
+                <h4 id="add-address">ADD ADDRESS</h4>
+
+                <div id="address-form-div">
+                    <form id="address-form" action="">
+                        <label class="address-lable" for="">FIRST NAME:</label> <br>
+                        <input class="address-input" required type="text" name="" id=""> <br>
+                        <label class="address-lable" for="">LAST NAME:</label> <br>
+                        <input class="address-input" type="text" name="" id=""> <br>
+                        <label class="address-lable" for="">MOBILE:</label><br>
+                        <input class="address-input" type="text" name="" id=""> <br>
+                        <label class="address-lable" or="">EMAIL:</label><br>
+                        <input class="address-input" type="text" name="" id=""><br>
+                        <label class="address-lable" for="">ADDRESS:</label> <br>
+                        <textarea rows="4" cols="44" name="comment" form="usrform"></textarea>
+                    </form>
+
+
+                    <a href="./pymt.html"><button id="palace-order-btn">PALACE ORDER</button></a>
+                </div>
+            </div>
+        </div>
+        <div id="checkout-right-div">
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+#checkout-header {
+    width: 940px;
+    height: 70px;
+    border: 1px solid transparent;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#checkout-h1 {
+    font-family: sans-serif;
+    font-size: 22px;
+    letter-spacing: 2.1px;
+    color: #2d2d2d;
+    margin-left: 290px;
+}
+
+#checkout-logo {
+    font-family: sans-serif;
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: -4px;
+    margin-left: 25px;
+}
+
+#checkout-main-div {
+    width: 940px;
+    height: 1050px;
+    border: 1px solid transparent;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#checkout-left-div {
+    width: 570px;
+    height: fit-content;
+    border: 1px solid transparent;
+}
+
+#checkout-right-div {
+    width: 360px;
+    height: 380px;
+    border: 1px solid lightgrey;
+}
+
+#country-div {
+    width: 100%;
+    height: 127px;
+    border: 1px solid lightgrey;
+}
+
+#shipping-country {
+    font-family: sans-serif;
+    color: #2d2d2d;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.496px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#country-select {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+#country {
+    padding: 11px 120px;
+    background-color: transparent;
+    border: 1px solid #2d2d2d;
+    margin-left: 20px;
+
+}
+
+#flage {
+    margin-left: 20px;
+}
+
+#promo-div {
+    width: 100%;
+    height: 127px;
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+}
+
+#promo-h1 {
+    font-family: sans-serif;
+    color: #2d2d2d;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.9px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#promo-lable {
+    font-family: sans-serif;
+    color: #2d2d2d;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#promo-code {
+    padding: 10px 35px;
+}
+
+#promo-btn {
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#address-main-div {
+    width: 100%;
+    height: 740px;
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+}
+
+#delivery-address-h1 {
+    font-family: sans-serif;
+    color: #2d2d2d;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.496px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#add-address {
+    margin-left: 20px;
+    font-family: sans-serif;
+    color: #2d2d2d;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.496px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#postal-address {
+    width: 100%;
+    height: 70px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-option-btn {
+    font-family: sans-serif;
+    color: #2d2d2d;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    padding: 25px 50px;
+}
+
+#postal-address-btn {
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+#click-and-collect-btn {
+    border-bottom: 1px solid black;
+}
+
+#address-form-div {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid transparent;
+}
+
+#address-form {
+    margin-left: 20px;
+}
+
+.address-lable {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(179, 179, 179);
+
+}
+
+.address-input {
+    height: 44px;
+    width: 330px;
+    border: 1px solid #2d2d2d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#palace-order-btn {
+    width: 340px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
+    border: none;
+    background-color: #018849;
+    font-family: sans-serif;
+    font-family: 16px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+#palace-order-btn:hover {
+    background-color: #006637;
+    cursor: pointer;
+}
